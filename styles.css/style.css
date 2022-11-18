@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Jost;
+    src: url(../assets/fonts/Jost-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(../assets/fonts/Jost-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Jost, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.background-body {
+    background: url(../assets/table2-min.jpeg);
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid black;
+}
+
+.menu a:visited {
+    color: blueviolet;
+}
+
+.menu p {
+    color: black;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.header {
+    border-bottom: 0.5px solid;
+}
+
+.main {
+    display: flex;
+}
+
+.img-me {
+    width: 14%;
+    position: absolute;
+    top: 123px;
+    right: 113px;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    margin: 0 0 0 100px;
+}
+
+.form {
+    min-width: 420px;
+    margin: 20px auto;
+
+}
+
+.form input {
+    border: 1px solid #d7d7d7;
+}
+
+.footer {
+    list-style: none;
+    position: absolute;
+    bottom: 21px;
+    left: 0
+}
+
+.footer__copyright {
+    padding-top: 20px;
+}
+
+.container-bottom {
+    max-width: 30%;
+}
+
+.phrase-bottom {
+    font-size: medium;
+    position: absolute;
+    bottom: 25px;
+    left: 30%
+}
